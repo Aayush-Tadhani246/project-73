@@ -150,15 +150,15 @@ export default class TransactionScreen extends React.Component {
     //   scannedCycleId: 
     // });
 
-    // this.setState({
-    //   scannedStudentId: "",
-    //   scannedCycleId: ""
-    // });
-
-      this.state({
-      scannedStudentId: "",
+     this.setState({
+       scannedStudentId: "",
        scannedCycleId: ""
      });
+
+    //this.state({
+    //  scannedStudentId: "",
+    //  scannedCycleId: ""
+    //});
   };
 
   checkCycleEligibility = async () => {
